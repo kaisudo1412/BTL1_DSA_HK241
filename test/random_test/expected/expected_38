@@ -1,0 +1,41 @@
+len=5
+get_data_shape=(5, 2, 1)
+get_data_shape=(5,)
+foreach
+getData {{{ 175.745261},
+  {-111.405628}},
+ {{  77.014817},
+  { 158.857178}},
+ {{  20.628314},
+  {  44.832776}},
+ {{  -5.013277},
+  { -39.954385}},
+ {{ -55.001177},
+  { -70.817313}}}
+getLabel {51, 97, 76,  7, 93}
+getitem -1
+Error: Out of range exception: Index is out of range!
+getitem 0
+getData {{ 175.745261},
+ {-111.405628}}
+getLabel 51
+getitem 1
+getData {{  77.014817},
+ { 158.857178}}
+getLabel 97
+getitem 2
+getData {{ 20.628314},
+ { 44.832776}}
+getLabel 76
+getitem 3
+getData {{ -5.013277},
+ {-39.954385}}
+getLabel 7
+getitem 4
+getData {{-55.001177},
+ {-70.817313}}
+getLabel 93
+getitem 5
+Error: Out of range exception: Index is out of range!
+getitem 6
+Error: Out of range exception: Index is out of range!

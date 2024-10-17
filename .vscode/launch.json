@@ -1,0 +1,63 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Attach",
+      "type": "cppdbg",
+      "request": "launch",
+      "cwd": "/mnt/c/Users/ADMIN/OneDrive - hcmut.edu.vn/Documents/Year_3/HK241/DSA/BTL1/Task2-DSA-HK241 (30-9)/template_DSA1",
+      "program": "/mnt/c/Users/ADMIN/OneDrive - hcmut.edu.vn/Documents/Year_3/HK241/DSA/BTL1/Task2-DSA-HK241 (30-9)/template_DSA1/main",
+      "MIMode": "gdb",
+      "args": [
+        "test_unit_data",
+        "data28"
+      ],
+      "environment": [
+        {
+          "name": "LSAN_OPTIONS",
+          "value": "detect_leaks=0"
+        }
+      ],
+      "stopAtEntry": false,
+      "preLaunchTask": "Build with AddressSanitizer",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        },
+      ],
+      "logging": {
+        "engineLogging": true
+      }
+    },
+    // {
+    //   "name": "C/C++ Runner: Debug Session",
+    //   "type": "cppdbg",
+    //   "request": "launch",
+    //   "args": [
+    //     "test_random",
+    //     "13"
+    //   ],
+    //   "stopAtEntry": true,
+    //   "externalConsole": true,
+    //   "cwd": "/mnt/c/Users/ADMIN/OneDrive - hcmut.edu.vn/Documents/Year_3/HK241/DSA/BTL1/Task2-DSA-HK241 (30-9)/template_DSA1",
+    // "program": "c:/Users/ADMIN/OneDrive - hcmut.edu.vn/Documents/Year_3/HK241/DSA/BTL1/Task2-DSA-HK241 (30-9)/template_DSA1/build/Debug/outDebug",
+    // "program": "/mnt/c/Users/ADMIN/OneDrive - hcmut.edu.vn/Documents/Year_3/HK241/DSA/BTL1/Task2-DSA-HK241 (30-9)/template_DSA1/main",
+    // "MIMode": "gdb",
+    // "miDebuggerPath": "/usr/bin/gdb",
+    // "setupCommands": [
+    //   {
+    //     "description": "Enable pretty-printing for gdb",
+    //     "text": "-enable-pretty-printing",
+    //     "ignoreFailures": true
+    //   }
+    // ]
+    // }
+  ]
+}

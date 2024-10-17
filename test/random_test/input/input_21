@@ -1,0 +1,19 @@
+seed = 100
+label - string
+DataLoader - 3 - True - True
+shape = 8 x 4 x 5 x 1
+len
+get_data_shape
+get_label_shape
+foreach
+getitem -1
+getitem 0
+getitem 1
+getitem 2
+getitem 3
+getitem 4
+getitem 5
+getitem 6
+getitem 7
+getitem 8
+getitem 9

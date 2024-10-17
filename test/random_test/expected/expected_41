@@ -1,0 +1,95 @@
+len=16
+get_data_shape=(16, 2, 1)
+get_data_shape=()
+foreach
+getData {{{ -91.682687},
+  { -12.414717}},
+ {{-202.671965},
+  { 111.942362}},
+ {{ -55.023449},
+  {  51.543307}},
+ {{   2.222183},
+  { -42.779295}},
+ {{  47.386086},
+  { 136.845012}},
+ {{ 113.022819},
+  {  37.311891}},
+ {{  39.257974},
+  { -92.918465}},
+ {{-201.096287},
+  { -49.280347}},
+ {{ -52.512284},
+  { 191.277128}},
+ {{   7.983179},
+  { -15.951646}}}
+getLabel 0
+getitem -1
+Error: Out of range exception: Index is out of range!
+getitem 0
+getData {{-55.023449},
+ { 51.543307}}
+getLabel 0
+getitem 1
+getData {{  47.386086},
+ { 136.845012}}
+getLabel 0
+getitem 2
+getData {{-91.682687},
+ {-12.414717}}
+getLabel 0
+getitem 3
+getData {{-201.096287},
+ { -49.280347}}
+getLabel 0
+getitem 4
+getData {{ 39.257974},
+ {-92.918465}}
+getLabel 0
+getitem 5
+getData {{  7.983179},
+ {-15.951646}}
+getLabel 0
+getitem 6
+getData {{  2.222183},
+ {-42.779295}}
+getLabel 0
+getitem 7
+getData {{-53.181746},
+ {-11.747551}}
+getLabel 0
+getitem 8
+getData {{ 22.207891},
+ {-76.79765 }}
+getLabel 0
+getitem 9
+getData {{ 14.246459},
+ { -3.465218}}
+getLabel 0
+getitem 10
+getData {{ 113.433929},
+ { -10.474553}}
+getLabel 0
+getitem 11
+getData {{ -52.512284},
+ { 191.277128}}
+getLabel 0
+getitem 12
+getData {{-202.671965},
+ { 111.942362}}
+getLabel 0
+getitem 13
+getData {{  77.919265},
+ {-110.109774}}
+getLabel 0
+getitem 14
+getData {{ 113.022819},
+ {  37.311891}}
+getLabel 0
+getitem 15
+getData {{ -38.647293},
+ {-115.877022}}
+getLabel 0
+getitem 16
+Error: Out of range exception: Index is out of range!
+getitem 17
+Error: Out of range exception: Index is out of range!

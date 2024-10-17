@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build with AddressSanitizer",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",  // Thêm thông tin debug
+                "-fsanitize=address",  // Sử dụng AddressSanitizer
+                "-O0",  // Tắt tối ưu hóa để dễ debug hơn
+                "-o",  // Tên file đầu ra
+                "main",  // File đầu ra
+                "-Iinclude",  // Thư mục include
+                "-Isrc",  // Thư mục src
+                "-std=c++17",  // Chuẩn C++17
+                "main.cpp",  // File nguồn chính
+                "src/util/Point.cpp",  // Các file nguồn khác
+                "test/unit_test/arrayList/unit_test.cpp",
+                "test/unit_test/linkedList/unit_test.cpp",
+                "test/random_test/random_test.cpp",
+                "test/unit_test/data/unit_test.cpp",
+                "src/ann/xtensor_lib.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Task để biên dịch dự án với AddressSanitizer và thông tin debug."
+        }
+    ]
+}
